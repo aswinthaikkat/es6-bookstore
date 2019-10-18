@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BookStore</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container bg-light">
+        <h1 class="text-primary  text-center">BookStore</h1>
+
+        <div class="row justify-content-center">
+            <form id="form" class="form-group justify-content-center">
+                <label for="bookname">Book Name</label>
+                <input type="text" class="form-control" id="bookname" name="bookname" placeholder="Enter Bookname">
+                <label for="author">Author</label>
+                <input type="text" id="authorname" name="authorname" class="form-control"
+                    placeholder="Enter AuthorName">
+                <label for="isbn">ISBN</label>
+                <input type="text" id="isbnname" name="isbnname" class="form-control" placeholder="Enter ISBN number">
+
+                <div class="row justify-content-center"></div>
+                <input class="button btn-primary m-2" type="submit" placeholder="Submit">
+        </div>
+
+        </form>
+
+
+
+        <table class="table ">
+            <thead class='thead-dark'>
+                <th scope="col">BookName</th>
+                <th scope="col">Author</th>
+                <th scope="col">ISBN</th>
+            </thead thead-dark>
+            <tbody id="tablebody">
+
+
+            </tbody>
+        </table>
+    </div>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
+
+</body>
+
+
+
+</html>
